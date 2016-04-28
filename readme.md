@@ -40,8 +40,8 @@ render: () => (
 
 ### What it doesn't do
 
-- Parse emoji names (like `:smile:`)
-- Provide built-in support for other emoji assets
+- Parse emoji names (like `:smile:`).
+- Provide built-in support for other emoji assets.
 
 ## React version support
 
