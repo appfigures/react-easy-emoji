@@ -34,10 +34,9 @@ render: () => (
 ## Features
 
 - Simple functional API with minimal surface area.
-- Extrememly lean implementation.
-- Very customizable.
 - Used in production high-traffic pages.
-- Follows the React way™ all the way down.
+- Lean implementation that follows the React way™ all the way down.
+- Customizable rendering logic.
 
 ### What it doesn't do
 
