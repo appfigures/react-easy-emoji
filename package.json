@@ -1,0 +1,34 @@
+{
+  "name": "react-easy-emoji",
+  "version": "1.0.0",
+  "description": "A super simple eomji rendering library for React with built in support for Twemoji",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appfigures/react-easy-emoji"
+  },
+  "bugs": {
+    "url": "https://github.com/appfigures/react-easy-emoji/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "emoji",
+    "react",
+    "twemoji"
+  ],
+  "author": "Oz Michaeli (http://twitter.com/oztune)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.assign": "^4.0.8",
+    "string-replace-to-array": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "^15.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
