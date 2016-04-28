@@ -58,6 +58,6 @@ emoji(string|array[, options|renderFn]) => array
 
 ## Inspiration
 
-Several libraries exist which manipulate the DOM directly to render emojis, but that's just not the React way™. Inspired [this thread](https://github.com/facebook/react/issues/3386), and our need for a super simple emoji rendering library, we created react-easy-emoji.
+Several libraries exist which manipulate the DOM directly to render emojis, but that's just not the React way™. Inspired by  [this thread](https://github.com/facebook/react/issues/3386), and our need for a super simple emoji rendering library, we created react-easy-emoji.
 
 ## Alternatives
