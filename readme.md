@@ -8,7 +8,7 @@ Super minimal emoji rendering library for React, with built in support for the w
 <a href="https://appfigures.com/reviews/41680810438L1SidPd0I5JBQAxo-L2DlLQ" target="_blank">
   <img src="https://raw.githubusercontent.com/appfigures/react-easy-emoji/master/images/review-appfigures.png" width="600" />
 </a>
-> We use react-easy-emoji at appFigures for rendering millions of [review cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/) every day.
+> We use react-easy-emoji at appFigures for rendering millions of [review cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/).
 
 ## Features
 
