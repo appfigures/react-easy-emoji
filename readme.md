@@ -25,7 +25,7 @@ React 0.14.x, 15.x
 
 ## Example
 
-### Basic uage
+**Basic uage**
 
 ```
 import emoji from 'react-easy-emoji'
@@ -34,37 +34,30 @@ emoji('Emojis make me 😀')
 // output: ['Emojis make me ', <img src="//twemoji.maxcdn.com/2/72x72/1f604.png" ... />]
 ```
 
-### In a component
+**Inside a component**
 
 ```
 import emoji from 'react-easy-emoji'
-
-render () {
-  return (
-    <p>{ emoji('Emojis make me 😀') }</p>
-  )
-}
+...
+render: () => (
+  <p>{ emoji('Emojis make me 😀') }</p>
+)
 ```
 
-## What it doesn't do
-
-## Customizing
-
-## Usage
-### Installation
+## Installation
 
 ```
 npm install --save react-easy-emoji
 ```
 
-### API
+## API
 
 ```
 emoji(string|array[, options|renderFn]) => array
 ```
 
-# Inspiration
+## Inspiration
 
 Several libraries exist which manipulate the DOM directly to render emojis, but that's just not the React way™. Inspired [this thread](https://github.com/facebook/react/issues/3386), and our need for a super simple emoji rendering library, we created react-easy-emoji.
 
-# Alternatives
+## Alternatives
