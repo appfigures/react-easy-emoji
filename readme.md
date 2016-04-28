@@ -40,8 +40,9 @@ render: () => (
 
 ### What it doesn't do
 
-- Parse emoji names (like `:smile:`).
-- Provide built-in support for other emoji assets.
+- Doesn't parse emoji names like `:smile:`.
+- Doesn't parse emoticons like `:)`.
+- Doesn't provide built-in support for emoji assets other than Twemoji.
 
 ## React version support
 
