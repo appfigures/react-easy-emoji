@@ -1,5 +1,5 @@
 require('chai').should()
-var emoji = require('./')
+var emoji = require('../')
 
 describe('react-easy-emoji', function () {
 	it ('should work', function () {
