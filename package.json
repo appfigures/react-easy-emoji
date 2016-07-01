@@ -1,6 +1,6 @@
 {
   "name": "react-easy-emoji",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A super simple eomji rendering library for React with built in support for Twemoji",
   "main": "index.js",
   "repository": {
