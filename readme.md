@@ -158,7 +158,7 @@ emoji(string, (code, string, offset) => {
 
 ## Inspiration
 
-While building [appFigures Review Cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/), we found several emoji rendering libraries for React, but none of them checked all of our boxes. The idealist in us wanted a library that doesn't pack any unnecessary features, doesn't manipulate the DOM, and has a functional API that does things the React way™. So with a little inspiration from [this thread](https://github.com/facebook/react/issues/3386) we decided to roll our own.
+While building [appFigures Review Cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/) we needed a simple emoji rendering library for React. We found several but none of them checked all of our boxes. The idealist in us wanted a library that doesn't pack any unnecessary features, doesn't manipulate the DOM, and has a functional API that does things the React way™. So with a little inspiration from [this thread](https://github.com/facebook/react/issues/3386) we decided to roll our own.
 
 ## Other React emoji libraries
 
