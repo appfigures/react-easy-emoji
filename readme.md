@@ -43,7 +43,7 @@ class Page extends React.Component {
 
 ## What it doesn't do
 
-We've consciously left out some extra features in order to keep this library as minimal as possible:
+We've consciously left out some extra features in order to keep this library as [minimal](https://en.wikipedia.org/wiki/Unix_philosophy) as possible:
 
 - Doesn't parse emoji names like `:smile:`.
 - Doesn't parse emoticons like `:)`.
