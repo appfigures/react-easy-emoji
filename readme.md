@@ -147,7 +147,7 @@ For complete control over the output emoji, pass a function instead of an option
 
 **Return**
 
-This function must return a valid React element. Since the output will be placed in an array it must have a `key` attribute. For more information on why a `key` attribute is required see the [React docs](https://facebook.github.io/react/docs/multiple-components.html)
+This function must return a valid React element. Since the output will be placed in an array it must have a `key` attribute. For more information on why a `key` attribute is required see the [React docs](https://facebook.github.io/react/docs/lists-and-keys.html#keys)
 
 Example:
 
