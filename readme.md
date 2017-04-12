@@ -5,7 +5,7 @@
 
 Super minimal emoji rendering utility for React, with built in support for the wonderful [twemoji](https://github.com/twitter/twemoji) image set.
 
-> We use Easy Emoji at appFigures for rendering millions of [review cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/).
+> We use Easy Emoji at Appfigures for rendering millions of [review cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/).
 
 <a href="https://appfigures.com/reviews/41680810438L1SidPd0I5JBQAxo-L2DlLQ" target="_blank">
   <img src="https://raw.githubusercontent.com/appfigures/react-easy-emoji/master/images/review-appfigures.png" width="600" />
@@ -111,7 +111,7 @@ This is the only function in this library. It allows for several different level
 
 #### Parameters
 
-#####`input: string | array`
+`input: string | array`
 
 The object to be emojified. Can be a simple string or an array which mixes react elements and strings. When an array is processed, all react elements are simply skipped but still get included in the output.
 
@@ -123,7 +123,7 @@ emoji(['simple string', <br />, 'string with emoji 🍻'])
 ```
 > Notice how the first two items in the array remain exactly the same, while the third gets split up.
 
-#####`options : object | renderFn : func`
+`options : object | renderFn : func`
 
 For basic customization pass in an options object to specify how image urls are constructed. The following options are available:
 
@@ -159,7 +159,7 @@ emoji(string, (code, string, offset) => {
 
 ## Inspiration
 
-While building [appFigures Review Cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/) we needed a simple emoji rendering library for React. We found several but none of them checked all of our boxes. The idealist in us wanted a library that doesn't pack any unnecessary features, doesn't manipulate the DOM, and has a functional API that does things the React way™. So with a little inspiration from [this thread](https://github.com/facebook/react/issues/3386) we decided to roll our own.
+While building [Appfigures Review Cards](http://blog.appfigures.com/unleash-your-app-reviews-with-review-cards/) we needed a simple emoji rendering library for React. We found several but none of them checked all of our boxes. The idealist in us wanted a library that doesn't pack any unnecessary features, doesn't manipulate the DOM, and has a functional API that does things the React way™. So with a little inspiration from [this thread](https://github.com/facebook/react/issues/3386) we decided to roll our own.
 
 ## Other React emoji libraries
 
