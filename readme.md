@@ -3,6 +3,7 @@
 [![react-easy-emoji MIT license on NPM](https://img.shields.io/npm/l/react-easy-emoji.svg?style=flat-square)](https://www.npmjs.com/package/react-easy-emoji)
 [![react-easy-emoji on NPM](https://img.shields.io/npm/v/react-easy-emoji.svg)](https://www.npmjs.com/package/react-easy-emoji)
 [![Build Status](https://img.shields.io/circleci/project/appfigures/react-easy-emoji.svg)](https://circleci.com/gh/appfigures/react-easy-emoji)
+[![react-easy-emoji total downloads on NPM](https://img.shields.io/npm/dt/react-easy-emoji.svg?style=flat-square)](https://www.npmjs.com/package/react-easy-emoji)
 [![react-easy-emoji monthly downloads on NPM](https://img.shields.io/npm/dm/react-easy-emoji.svg?style=flat-square)](https://www.npmjs.com/package/react-easy-emoji)
 
 Super minimal emoji rendering utility for React, with built in support for the wonderful [twemoji](https://github.com/twitter/twemoji) image set.
