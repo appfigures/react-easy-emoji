@@ -61,7 +61,7 @@ npm install --save react-easy-emoji
 
 ## React version support
 
-React 0.14.x, >= 15.x
+React 0.14.x, ^15.x, ^16.x
 
 ## Common tasks
 
