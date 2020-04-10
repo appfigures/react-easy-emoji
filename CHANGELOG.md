@@ -1,8 +1,13 @@
+## 1.4.0 (April 10, 2020)
+- If the baseUrl already contains a `protocol`, the `protocol` option will be ignored.
+- Added Typescript definitions.
+- Updated dependency versions.
+
 ## 1.3.0 (February 17, 2020)
-- Updated to latest official Unicode standard based on Twemoji 12.1.5
+- Updated to latest official Unicode standard based on Twemoji 12.1.5.
 
 ## 1.2.0 (June 21, 2018)
-- Updated to latest official Unicode standard based on Twemoji 5.0
+- Updated to latest official Unicode standard based on Twemoji 5.0.
 
 ## 1.1.0 (September 1, 2017)
 
@@ -15,4 +20,4 @@
 - Improved documentation.
 
 ## 1.0.2 (April 28, 2016)
-- Initial release
+- Initial release.
