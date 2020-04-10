@@ -28,9 +28,9 @@
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
+    "@types/react": "^16.0.0",
     "chai": "^3.5.0",
-    "mocha": "^7.0.1",
-    "react": "^15.0.1",
-    "@types/react": "^16.0.0"
+    "mocha": "^7.1.1",
+    "react": "^15.0.1"
   }
 }
