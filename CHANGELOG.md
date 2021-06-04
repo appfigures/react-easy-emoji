@@ -1,3 +1,7 @@
+## 1.5.0 (June 4, 2021)
+- Added support for Unicode 13.0.
+- Applied some depndabot suggestions.
+
 ## 1.4.0 (April 10, 2020)
 - If the baseUrl already contains a `protocol`, the `protocol` option will be ignored.
 - Added Typescript definitions.
