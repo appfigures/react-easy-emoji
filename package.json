@@ -1,6 +1,6 @@
 {
   "name": "react-easy-emoji",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A super minimal emoji rendering library for React",
   "main": "index.js",
   "repository": {
@@ -10,27 +10,32 @@
   "bugs": {
     "url": "https://github.com/appfigures/react-easy-emoji/issues"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "keywords": [
     "emoji",
     "react",
     "twemoji"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "sideEffects": false,
   "author": "Oz Michaeli (http://twitter.com/oztune)",
   "license": "MIT",
   "dependencies": {
-    "lodash.assign": "^4.0.8",
-    "string-replace-to-array": "^1.0.1"
+    "string-replace-to-array": "^2.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || >=15.0.0"
+    "react": ">=0.14.0",
+    "@types/react": "^0.14.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "devDependencies": {
-    "@types/react": "^16.0.0",
-    "chai": "^3.5.0",
-    "mocha": "^7.1.1",
-    "react": "^15.0.1"
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "react": "^17.0.2"
   }
 }
