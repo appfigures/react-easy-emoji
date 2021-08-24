@@ -1,3 +1,6 @@
+## 1.6.0 (August 16, 2021)
+- Removed dependencies and trimmed the overall size
+
 ## 1.5.0 (June 4, 2021)
 - Added support for Unicode 13.0.
 - Applied some depndabot suggestions.
