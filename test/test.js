@@ -19,4 +19,9 @@ describe('react-easy-emoji', () => {
 		var element = emoji('😄', { baseUrl: 'https://someurl.com/'})[0]
 		element.props.src.should.equal('https://someurl.com/72x72/1f604.png')
 	})
+	// Source: https://github.com/appfigures/react-easy-emoji/issues/18
+	it ('should provide a unique key when using an array with multiple strings', () => {
+		var element = emoji(['😄', '😄'])
+		element[0].key.should.not.equal(element[1].key)
+	})
 })

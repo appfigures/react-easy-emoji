@@ -1,3 +1,6 @@
+## 1.6.1
+- Fixed an issue where element keys might not be unique when passing an array to emoji(). Special thanks to @pbshgthm (https://github.com/appfigures/react-easy-emoji/issues/18)
+
 ## 1.6.0 (August 16, 2021)
 - Removed dependencies and trimmed the overall size
 

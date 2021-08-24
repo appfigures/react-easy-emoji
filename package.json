@@ -1,6 +1,6 @@
 {
   "name": "react-easy-emoji",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A super minimal emoji rendering library for React",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,7 @@
   "author": "Oz Michaeli (http://twitter.com/oztune)",
   "license": "MIT",
   "dependencies": {
-    "string-replace-to-array": "^2.0.0"
+    "string-replace-to-array": "^2.1.0"
   },
   "peerDependencies": {
     "react": ">=0.14.0",
