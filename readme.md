@@ -39,7 +39,7 @@ class Page extends React.Component {
 
 ## Features
 
-- It's [tiny](https://github.com/appfigures/react-easy-emoji/tree/master/lib) (on purpose).
+- It's [tiny](https://bundlephobia.com/package/react-easy-emoji) (on purpose).
 - Simple functional API with minimal surface area and full customization hooks.
 - Lean implementation that follows the React way™ all the way down (no DOM manipulation).
 - Renders emoji from Twitter's Twemoji cdn out of the box.

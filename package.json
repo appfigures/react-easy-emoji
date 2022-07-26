@@ -1,6 +1,6 @@
 {
   "name": "react-easy-emoji",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "A super minimal emoji rendering library for React",
   "main": "index.js",
   "repository": {
@@ -26,7 +26,7 @@
   },
   "peerDependencies": {
     "react": ">=0.14.0",
-    "@types/react": "^0.14.0"
+    "@types/react": ">=0.14.0"
   },
   "peerDependenciesMeta": {
     "@types/react": {
