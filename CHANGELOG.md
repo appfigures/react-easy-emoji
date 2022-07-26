@@ -1,3 +1,6 @@
+## 1.8.0 (July 26, 2022)
+- Updated dependencies to silence Dependabot
+
 ## 1.7.0 (July 26, 2022)
 - Updated to the latest Twemoji regex (v14.0.2) - By @vogeldaniel
 - Fixed issue where --legacy-peer-deps or --force was required to install this package. Thanks to @KMatuszak (https://github.com/appfigures/react-easy-emoji/issues/21)
