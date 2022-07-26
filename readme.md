@@ -59,10 +59,6 @@ We've consciously left out some extra features in order to keep this library as 
 npm install --save react-easy-emoji
 ```
 
-## React version support
-
-React 0.14.x, 15.x, 16.x, 17.x
-
 ## Common tasks
 
 ### Using svg Twemoji assets instead of the default png
