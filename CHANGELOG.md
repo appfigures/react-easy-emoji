@@ -1,3 +1,6 @@
+## 1.8.1 (January 9, 2023)
+- Replaced the now-offline Twemoji cdn url with a cloudflare alternative. Releasing as a bug fix so upstream users get the update.
+
 ## 1.8.0 (July 26, 2022)
 - Updated dependencies to silence Dependabot
 
