@@ -13,7 +13,7 @@ describe('react-easy-emoji', () => {
 		element.type.should.equal('img')
 		element.props.alt.should.equal('😄')
 		element.key.should.equal('15')
-		element.props.src.should.equal('//twemoji.maxcdn.com/2/72x72/1f604.png')
+		element.props.src.should.equal('//cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f604.png')
 	})
 	it ('should ignore the protocol option if one is provided in the baseUrl', () => {
 		var element = emoji('😄', { baseUrl: 'https://someurl.com/'})[0]
@@ -36,5 +36,6 @@ describe('react-easy-emoji', () => {
 	it ('handles empty size params to produce svgs', () => {
 		var element = emoji('😄', { size: '', ext: '.svg' })[0]
 		element.props.src.should.equal('//twemoji.maxcdn.com/2/svg/1f604.svg')
+		element[0].props.src.should.equal('//cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1fae0.png')
 	})
 })

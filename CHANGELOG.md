@@ -1,3 +1,13 @@
+## 1.8.1 (January 9, 2023)
+- Replaced the now-offline Twemoji cdn url with a cloudflare alternative. Releasing as a bug fix so upstream users get the update.
+
+## 1.8.0 (July 26, 2022)
+- Updated dependencies to silence Dependabot
+
+## 1.7.0 (July 26, 2022)
+- Updated to the latest Twemoji regex (v14.0.2) - By @vogeldaniel
+- Fixed issue where --legacy-peer-deps or --force was required to install this package. Thanks to @KMatuszak (https://github.com/appfigures/react-easy-emoji/issues/21)
+
 ## 1.6.1 (August 24, 2021)
 - Fixed an issue where element keys might not be unique when passing an array to emoji(). Special thanks to @pbshgthm (https://github.com/appfigures/react-easy-emoji/issues/18)
 
