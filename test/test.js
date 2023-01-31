@@ -24,4 +24,17 @@ describe('react-easy-emoji', () => {
 		var element = emoji(['😄', '😄'])
 		element[0].key.should.not.equal(element[1].key)
 	})
+
+	it ('should support emoji 14', () => {
+		var element = emoji('🫠')
+		element.should.have.lengthOf(1)
+		element[0].type.should.equal('img')
+		element[0].props.alt.should.equal('🫠')
+		element[0].props.src.should.equal('//twemoji.maxcdn.com/2/72x72/1fae0.png')
+	})
+
+	it ('handles empty size params to produce svgs', () => {
+		var element = emoji('😄', { size: '' })[0]
+		element.props.src.should.equal('//twemoji.maxcdn.com/2/svg/1f604.svg')
+	})
 })
