@@ -34,7 +34,7 @@ describe('react-easy-emoji', () => {
 	})
 
 	it ('handles empty size params to produce svgs', () => {
-		var element = emoji('😄', { size: '' })[0]
+		var element = emoji('😄', { size: '', ext: '.svg' })[0]
 		element.props.src.should.equal('//twemoji.maxcdn.com/2/svg/1f604.svg')
 	})
 })
