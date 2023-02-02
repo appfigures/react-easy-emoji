@@ -5,7 +5,7 @@ interface Options {
 	protocol?: 'http' | 'https'
 	/** The complete url to the emoji assets. You can also provider a protocol-less url. Eg: `'//twemoji.maxcdn.com/2/'` */
 	baseUrl? : string
-	/** The size of image to load. Eg: `'72x72'`. If loading svg files provide an empty string `''` */
+	/** The size of image to load. Eg: `'72x72'`. If loading svg files, you can not set a size, set it to `null` | `undefined`, or provide an empty string `''` */
 	size? : string,
 	/** the type of file to load. Eg. `'.png'`, `'.svg'` */
 	ext: string,
