@@ -32,4 +32,10 @@ describe('react-easy-emoji', () => {
 		element[0].props.alt.should.equal('🫠')
 		element[0].props.src.should.equal('//cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1fae0.png')
 	})
+
+	it ('handles empty size params to produce svgs', () => {
+		const baseUrl = '//cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/'
+		var element = emoji('😄', { size: '', ext: '.svg', baseUrl })[0]
+		element.props.src.should.equal(baseUrl + '1f604.svg')
+	})
 })
